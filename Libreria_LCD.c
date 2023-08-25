@@ -168,3 +168,10 @@ void Read_Data_From_RAM(int D7, int D6, int D5, int D4, int D3, int D2, int D1, 
     PORTD -> PCR[DB0]= PORTD_PCR_MUX(D0);
 }
 
+void setCursor(int fila, int col){
+    int row[fila]{0x00,0x40,0x14,0x54};
+    
+}
+void createChar(){
+
+}
